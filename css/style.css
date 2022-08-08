@@ -1,0 +1,485 @@
+/* ___________________  General Properties Start  _____________________*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* _________ Width Clases Start Here _________  */
+
+.w-5 {
+    width: 5%;
+    margin: auto;
+}
+
+.w-10 {
+    width: 10%;
+    margin: auto;
+}
+
+.w-15 {
+    width: 15%;
+    margin: auto;
+}
+
+.w-20 {
+    width: 20%;
+    margin: auto;
+}
+
+.w-30 {
+    width: 30%;
+    margin: auto;
+}
+
+.w-35 {
+    width: 35%;
+    margin: auto;
+}
+
+.w-40 {
+    width: 40%;
+    margin: auto;
+}
+
+.w-45 {
+    width: 45%;
+    margin: auto;
+}
+
+.w-55 {
+    width: 55%;
+    margin: auto;
+}
+
+.w-60 {
+    width: 60%;
+    margin: auto;
+}
+
+.w-65 {
+    width: 65%;
+    margin: auto;
+}
+
+.w-70 {
+    width: 70%;
+    margin: auto;
+}
+
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.w-85 {
+    width: 85%;
+    margin: auto;
+}
+
+.w-90 {
+    width: 90%;
+    margin: auto;
+}
+
+.w-95 {
+    width: 95%;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* _________ Width Clases End Here _________ */
+
+/* ________ Background Colors Start Here________ */
+
+.bg-gray-light {
+    background-color: rgba(219, 219, 219, 0.938);
+}
+
+/* ________ Background Colors End Here________ */
+
+/* ________ Home  Start Here________ */
+
+.setting-icon{
+
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    z-index: 2;
+}
+
+.scroll-me{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    color: whitesmoke;
+    z-index: 555555;
+}
+
+.navbar-nav .nav-item .nav-link{
+
+    color: white;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+
+.navbar-nav .nav-item .nav-link:hover{
+
+    color: #f75a5a;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-carousal .carousel-caption{
+
+    position: absolute;
+    right: 20%;
+    bottom: 35%;
+    animation-name:cation-animation ;
+    animation-duration: 1.5s;
+}
+.home-carousal .carousel-caption h2{
+
+    font-size: 65px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+@keyframes cation-animation {
+    0% {
+        right: -50%;
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+.navbar-toggler-icon,.navbar-toggler{
+    background-color: white;
+}
+
+/* ________ Home  End Here________ */
+
+
+
+
+/* _________ About Clases Start Here _________  */
+.about-us .title h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+
+}
+
+.about-us .title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+
+}
+.about-us .brdr{
+    height: 1px;
+    background-color: black;
+}
+
+.about-us:hover .brdr{
+    width: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+.about .progress-bar{
+    background-color: #f75a5a;
+}
+
+.about .progress{
+
+    height: 7px;
+}
+
+/* _________ About Clases End Here _________  */
+
+
+/* _________ Our Team Clases Start Here _________  */
+
+.our-team .title h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+
+}
+
+.our-team .title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+
+}
+.our-team .brdr{
+    height: 1px;
+    background-color: black;
+}
+
+.our-team:hover .brdr{
+    width: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.social-icons a{
+    color: white;
+
+}
+
+.our-team .member-img .social-icons{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+.our-team .member-img:hover .social-icons{
+    opacity: 1;
+
+}
+
+.our-team .member-img .img-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3 ease-in-out;
+    opacity: 0;
+}
+
+.our-team .member-img:hover .img-cover{
+    opacity: 0.7;
+    background-color: #f75a5a;
+    transition: all 0.3 ease-in-out;
+
+}
+
+.our-team .member-img:hover img{
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+
+}
+.our-team .member-img{
+    overflow: hidden;
+}
+
+.our-team .member:hover h4{
+    color: #f75a5a;
+    transition: 0.3s all ease-in-out;
+
+}
+/* _________ Our Team Clases End Here _________  */
+
+/* _________ Services Clases Start Here _________  */
+
+
+.our-services .title h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+
+}
+
+.our-services .title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+
+}
+.our-services .brdr{
+    height: 1px;
+    background-color: black;
+}
+
+.our-services:hover .brdr{
+    width: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+.services .service-content {
+    font-size: 1.5rem;
+}
+
+/* _________ Services Clases End Here _________  */
+
+/* _________ Clients Review Clases Start Here _________  */
+.our-client .title h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+
+}
+
+.our-client .title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+
+}
+.our-client .brdr{
+    height: 1px;
+    background-color: black;
+}
+
+.our-client:hover .brdr{
+    width: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+.carousel-indicators {
+    position: relative;
+    
+    
+}
+
+.carousel-indicators li {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    padding: 5px 5px;
+    
+}
+
+.carousel-indicators .active img {
+    transform: scale(1.2);
+}
+
+.client-img{
+    width: 100px;
+    height: 100px;
+
+}
+/* _________ Clients Review Clases End Here _________  */
+
+/* _________ Get in touch Review Clases Start Here _________  */
+
+.get-in .title h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: #f1f1f1;
+
+}
+
+.get-in .title h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+
+}
+.get-in .brdr{
+    height: 1px;
+    background-color: black;
+}
+
+.get-in:hover .brdr{
+    width: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.to-up {
+    opacity: 0.5;
+    left: 48%;
+}
+
+.to-up a {
+    font-size: 50px;
+    color: #f75a5a;
+}
+
+
+/* _________ Get in touch  Clases End Here _________  */
+
+
+/* _________ pre-footer Review Clases Start Here _________  */
+
+.pre-footer{
+    background-image: url(../Images/dotted-map.png);
+    background-color: #222;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.pre-footer a,li{
+    color: rgb(184, 183, 183);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.pre-footer h4{
+    color: whitesmoke;
+}
+
+.pre-footer button{
+    background-color: transparent;
+    border: whitesmoke 1px solid;
+    color: rgb(184, 183, 183);
+    font-size: 13px;
+    padding: 5px;
+}
+
+.pre-footer .footer-button{
+    padding: 5px;
+}
+
+.pre-footer a:hover{
+    color: #f75a5a;
+    transition: 0.3s;
+
+}
+
+.pre-footer button:hover{
+    color: #f75a5a;
+    border: #f75a5a 1px solid;
+    transition: 0.3s all ease-in-out;
+}
+/* _________ pre-footer Review Clases End Here _________  */
+
+/* _________ footer Review Clases Start Here _________  */
+
+.footer{
+    background-color: #1a1717;
+}
+
+.footer .footer-icons a{
+    color: white;
+    padding-left: 10px;
+}
+
+.footer .footer-icons a:hover{
+    color: #f75a5a;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer .copy{
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.footer .copy a {
+    text-decoration:  none;
+    color: white;
+    padding-left: 10px;
+
+}
+
+.footer .copy a:hover{
+    color: #f75a5a;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer p{
+    color: rgb(184, 183, 183);
+}
+
+
